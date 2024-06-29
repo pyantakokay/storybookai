@@ -55,7 +55,7 @@ def design_ai(msg):
 def storybook_ai(msg,sysprompt):
   story=story_ai(msg,sysprompt)
   design=design_ai(story)
-  art=art_ai(design
+  art=art_ai(design)
     st.image(art)
   st.write(story)
 
